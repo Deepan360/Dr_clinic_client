@@ -11,7 +11,7 @@ import {
   Grid,
 } from "@mui/material";
 import drlogo from "/drcliniclogo.png";
-import Footer from "../components/footer"; // Correct relative path
+import Footer from "./footer"; // Correct relative path
 import { useNavigate } from 'react-router-dom';
 
 function Home() {

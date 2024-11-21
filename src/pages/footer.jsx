@@ -13,7 +13,7 @@ const footer = () => (
     }}
   >
     <Typography variant="body" color="#fff">
-      © 2024 Dr Clinic Doom. All Rights Reserved.
+      © 2024 Dr Clinic <a href="/admin-login" style={{color:"white"}}>Doom.</a>All Rights Reserved.
     </Typography>
   </Box>
 );

@@ -3,14 +3,13 @@ import React from "react";
 import { Box, Typography, Container, TextField, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
-function DoctorLogin() {
-
-   const navigate=useNavigate();
+function AdminLogin() {
+    const navigate=useNavigate();
   return (
     <Container>
       <Box sx={{ padding: 3, textAlign: "center" }}>
         <Typography variant="h4" gutterBottom>
-          Doctor Login
+          Admin Login
         </Typography>
         <TextField
           label="Username"
@@ -25,7 +24,7 @@ function DoctorLogin() {
           fullWidth
           sx={{ marginBottom: 2 }}
         />
-        <Button variant="contained" color="primary" >
+        <Button variant="contained" color="primary" onClick={()=>navigate("/admin-dashboard")}>
           Login
         </Button>
       </Box>
@@ -33,4 +32,4 @@ function DoctorLogin() {
   );
 }
 
-export default DoctorLogin;
+export default AdminLogin;

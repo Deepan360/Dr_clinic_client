@@ -8,6 +8,8 @@ import DoctorLogin from "./pages/DoctorLogin";
 import ReceptionistLogin from "./pages/ReceptionistLogin";
 import PharmaLogin from "./pages/PharmaLogin";
 import Home from "./pages/Home";
+import AdminLogin from "./pages/AdminLogin";
+import Dashboard from "./components/admin/Dashboard";
 
 function App() {
 
@@ -16,9 +18,12 @@ function App() {
      
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/admin-login" element={<AdminLogin />} />
         <Route path="/doctor-login" element={<DoctorLogin />} />
         <Route path="/receptionist-login" element={<ReceptionistLogin />} />
         <Route path="/pharma-login" element={<PharmaLogin />} />
+
+        <Route path="/admin-dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
