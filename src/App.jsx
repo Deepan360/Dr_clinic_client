@@ -10,8 +10,6 @@ import PharmaLogin from "./pages/PharmaLogin";
 import Home from "./pages/Home";
 
 function App() {
-
-
   return (
     <Router>
       {" "}

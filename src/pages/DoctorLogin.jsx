@@ -15,7 +15,7 @@ function DoctorLogin() {
       <Box
         sx={{
           height: "80px",
-          backgroundColor: "#f1f1f1",
+          backgroundColor: "#f5f5f5",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -54,7 +54,7 @@ function DoctorLogin() {
         <Box sx={{width:"500px"}}>
           <Container
             sx={{
-              background: "#f1f1f1",
+              background: "#f5f5f5",
               borderRadius: "15px",
               padding: "20px",
               textAlign: "center"
