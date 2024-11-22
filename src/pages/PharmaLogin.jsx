@@ -15,7 +15,7 @@ function PharmaLogin() {
      <Box
        sx={{
          height: "80px",
-         backgroundColor: "#fff",
+         backgroundColor: "#f1f1f1",
          display: "flex",
          justifyContent: "center",
          alignItems: "center",
